@@ -1,5 +1,5 @@
 # Lab DevOps
-`Add the badge here (see assignment below)`
+![main workflow](https://github.com/github/docs/actions/workflows/Alexander_Fichtenberg-OpsDev-CI.yml/badge.svg)
 
 ## Introduction
 The company OpsDev has been secretly following our DevOps workshop and has jumped on the chance to implement a CI/CD pipeline for their own calculator app. However, the company considers itself allergic to Jenkins and (locally hosted) virtual machines.

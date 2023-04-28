@@ -17,4 +17,12 @@ jobs:
         with:
           node-version: 18
           cache: 'npm'
-      - run: echo $(node --version)
+      - name: Install dependencies
+        run: npm ci
+      - name: Test code
+        run: npm test > test-report.txt
+      - name: Archive code test results
+        uses: actions/upload-artifact@v3
+        with:
+          name: code-test-report
+          path: test-report.txt
